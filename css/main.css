@@ -1,0 +1,50 @@
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.all .h1 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.all .form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid silver;
+}
+
+.all .form input {
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.all .form button {
+  padding: 5px 10px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  color: #000;
+  background: #fff;
+  transition: 0.5s ease;
+}
+
+.all .form button:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+  transition: 0.5s ease;
+}
+
+.all .text {
+  margin-top: 10px;
+}
